@@ -1,16 +1,9 @@
 # TodoMVC Performance Comparison
 
-Both Mercury and Elm are based on the [virtual-dom][] project which appears to
-be extremely fast.
+todomvc performance comparison for [snabbdom](https://github.com/paldepind/snabbdom) and [unReact](https://github.com/yelouafi/unReact) based app
 
-[virtual-dom]: https://github.com/Matt-Esch/virtual-dom
+sample results from running this in Chrome 43/Windows 7 on a HP elitebook (CPU core duo 2,13 Ghz, 3 Go RAM) 
 
-[**Run it yourself**][runner] to see how it works on your machine or in other
-browsers!
-
-Here are some sample results from running this in Chrome 35 with OSX 10.9.4 on
-a Macbook Air:
-
-[![Sample results for Chrome 35 + OSX 10.9.4 on a Macbook Air](sampleResults.png)][runner]
+[![sample results from running this in Chrome 43/Windows 7 on a HP elitebook (CPU core duo 2,13 Ghz, 3 Go RAM) ](sampleResults.png)][runner]
 
 [runner]: http://evancz.github.io/todomvc-perf-comparison/
