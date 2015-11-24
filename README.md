@@ -4,7 +4,7 @@ todomvc performance comparison for [snabbdom](https://github.com/paldepind/snabb
 
 sample results from running this in Chrome 43/Windows 7 on a HP elitebook (CPU core duo 2,13 Ghz, 3 Go RAM) 
 
-This was principally for testing the impact of requestAnimationFrame debouncing optimization on the application performance (.i.e. instead of rendering on each state change, schedules a render on requestAnimationFrame, so we can save same precious browser render cycles. unReact is ineherently ineffecien as it has to recalculate the state one each render operation.
+This was principally for testing the impact of requestAnimationFrame debouncing optimization on the application performance (.i.e. instead of rendering on each state change, schedules a render on requestAnimationFrame, so we can save same precious browser render cycles). unReact is ineherently ineffecient as it has to recalculate the state one each render operation.
 
 [![sample results from running this in Chrome 43/Windows 7 on a HP elitebook (CPU core duo 2,13 Ghz, 3 Go RAM) ](sampleResults.png)][runner]
 
